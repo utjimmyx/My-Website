@@ -1,0 +1,24 @@
+---
+title: "My Website - Flyingdata"
+image: "marketing-dashboard.jpg"
+links:
+  - label: LinkedIn
+    url: "https://www.linkedin.com/in/zhenning-jjimmy-xu/"
+  - label: Twitter
+    url: "https://twitter.com/MKTJimmyxu"
+  - label: GitHub
+    url: "https://github.com/utjimmyx"
+  - label: GitHub
+    url: "https://public.tableau.com/profile/zhenning.xu#!/"
+output:
+  postcards::jolla
+site: distill::distill_website
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+
+# Learn more about creating websites with Distill at:
+# https://rstudio.github.io/distill/website.html
+
+```
